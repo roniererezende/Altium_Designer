@@ -82,17 +82,51 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LIJBMLEG
 
+[Document3]
+DocumentPath=..\..\..\..\..\..\..\Altium\Library\Roniere_Library\Roniere_Lib.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document4]
+DocumentPath=..\..\..\..\..\..\..\Altium\Library\Roniere_Library\Roniere_Lib.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [Parameter1]
-Name=Title
-Value=Smart MCU
+Name=Designer
+Value=Roniere Rezende
 
 [Parameter2]
 Name=Start Date
 Value=15/07/2024
 
 [Parameter3]
-Name=Designer
-Value=Roniere Rezende
+Name=Title
+Value=Smart MCU
 
 [Configuration1]
 Name=Sources
@@ -1060,6 +1094,10 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=+5V|NetColor=clRed
+Net2=NetName=GND|NetColor=$00666666
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
